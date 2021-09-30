@@ -6,4 +6,4 @@ while x < len(candyList): # have awhile loop that iterate through the candyList
     rank = input("Enter the ranking for " + candyList[x] + " from 1 to " + str(len(candyList)) + ": ") # prompt the user to enter the ranking for each candy
     rankingList[int(rank)-1] = candyList[x] # add the candy into the ranked list based on the position the user asked for
     x += 1 # increment the iterator by 1
-print(rankingList)
+print(rankingList) # print the ranked list
